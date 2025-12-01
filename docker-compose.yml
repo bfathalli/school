@@ -12,7 +12,7 @@ services:
   app-backend:
     depends_on:
       - mysqldb
-    image: bfathalli/school:1.1.0
+    image: bfathalli/school-1.1.0
     #build : ./
     restart: on-failure
     ports:
